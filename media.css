@@ -1,0 +1,67 @@
+/* styles for mobile screen sizes */
+@media screen and (max-width: 480px) {
+    header {
+        padding-top: 25px;
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 5%;
+        right: 5%;
+        z-index: 800;
+        padding-top: 25px;
+        background-color: hsl(36, 100%, 99%);
+    }
+
+    .mobile-btn {
+        display: block;
+    }
+
+    .navbar-collapse {
+        width: 260px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 900;
+        padding: 20px;
+        background-color: hsl(36, 100%, 99%);
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .navbar-collapse.show {
+        transform: translateX(0%);
+    }
+
+    .menu-list {
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .menu-item + .menu-item {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    #intro > .container, .intro-article {
+        grid-template-columns: 1fr;
+    }
+
+    #intro > .container {
+        row-gap: 80px;
+    }
+
+    .big-title {
+        font-size: 3rem;
+    }
+
+    .articles-container.d-flex {
+        flex-direction: column;
+    }
+}

@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution](https://your-solution-url.com)
-- Live Site URL: [News homepage](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/news-homepage-using-pure-html5-css3-and-javascript-jFQSwn3zKB)
+- Live Site URL: [News homepage](https://br-news-homepage.netlify.app)
 
 ## My process
 
